@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal | www.codingnepalweb.com-->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Login and Registration Form in HTML & CSS | CodingLab </title>
+    <link rel="stylesheet" href="Login-and-Registration-Form.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <input type="checkbox" id="flip">
+        <div class="cover">
+            <div class="front">
+                <img src="Simple Aesthetic Coffee Time Instagram Instagram.png" alt="">
+                <!-- <div class="text">
+                    <span class="text-1">Welcome</span>
+                    <span class="text-2">It's a Great Day For<br>Coffee</span>
+                </div> -->
+            </div>
+            <div class="back">
+                <img class="backImg" src="photo-1607863680069-9919fbdbe0b4(1).jpeg" alt="">
+                <div class="text">
+                    <span class="text-1"><em>Coffee</em></span>
+                    <span class="text-2">Fresh Like cappuccino</span>
+                </div>
+            </div>
+        </div>
+        <div class="forms">
+            <div class="form-content">
+                <div class="login-form">
+                    <img class="curveImg" src="XRecorder_Edited_23032024_1611391.jpg" alt="">
+                    <div class="title">Login</div>
+                    <form action="#">
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <i class="fas fa-envelope"></i>
+                                <input type="text" placeholder="Enter your email" required>
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-lock"></i>
+                                <input id="logPassword" type="password" placeholder="Enter your password" required>
+                                <!-- <div class="eye-area">
+                                    <div class="eye-box" onclick="myLogPassword">
+                                        <i class="fa-ragular fa-eye" id="eye"></i>
+                                        <i class="fa-regular fa-eye-slash" id="eye-slash"></i>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="text"><a href="#">Forgot password?</a></div>
+                            <div class="button input-box">
+                                <button>Submit</button>
+                            </div>
+                            <div class="text sign-up-text">Don't have an account? <label for="flip">Signup now</label>
+                            </div>
+                            <br>
+                            <p class="optional" style="text-align: center;">OR</p>
+                            <br>
+                            <div class="option">Connect With Social Media
+                            </div>
+                            <span class="microsoft">
+                                <a href="https://login.microsoftonline.com"><i
+                                        class="fab fa-microsoft"></i>microsoft</a>
+                            </span>
+                            <span class="facebook">
+                                <a href="https://en-gb.facebook.com/login.php"><i
+                                        class="fab fa-facebook"></i>Facebook</a><!--2-->
+                            </span>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="container1">
+                    <span class="sp1"><em>Registration</em></span><br>
+                    <span class="sp2">Click for your shoot</span>
+                    <br>
+                    <br>
+                    <form action="#">
+                        <div class="inside-form">
+                            Name <input class="inp" type="text" name="name" placeholder="John Doe">
+                        </div>
+                        <div class="inside-form">
+                            Email <input class="inp-Email" type="email" name="my email" placeholder="">
+                        </div>
+                        <div class="inside-form">
+                            Gender <i class="fa-solid fa-mars"></i>male<i class="fa-solid fa-venus"></i>female
+                        </div>
+                        <div class="inside-form">
+                            Date of Birth <input class="inp" type="datetime" placeholder="May 27,1997">
+                        </div>
+                        <div class="inside-form">
+                            City <input class="inp" type="text" placeholder="Yongon">
+                        </div>
+                        <div class="inside-form">
+                            Country <input class="inp" type="text" placeholder="Myanmar">
+                        </div>
+                        <div>
+                            <button class="btn">CANCEL</button>
+                            <button class="btn2">CONFIRM</button>
+                            <div class="text sign-up-text">Already have an account? <label for="flip">Login now</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
